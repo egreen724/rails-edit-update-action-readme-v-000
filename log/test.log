@@ -587,3 +587,4 @@ Processing by ArticlesController#show as HTML
   [1m[35mArticle Load (0.1ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
   Rendered articles/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (1.1ms)[0m  [1mrollback transaction[0m
