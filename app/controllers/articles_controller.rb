@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class ArticlesController < ApplicationController
   def index
